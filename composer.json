@@ -1,0 +1,18 @@
+{
+    "name": "nahid940/language",
+    "description": "A library to manage bangla and english language in any php based project",
+    "type": "library",
+    "authors": [
+        {
+            "name": "nahid940",
+            "email": "nahid940@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Language\\": "src/"
+        }
+    }
+}

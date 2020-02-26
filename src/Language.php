@@ -21,14 +21,14 @@ class Language
     {
         if($type=='bn')
         {
-            $bn_file=file_get_contents('json_files/bn.json');
+            $bn_file=file_get_contents('vendor/nahid940/language/json_files/bn.json');
             $json_decoded_file=json_decode($bn_file);
             return $json_decoded_file->bn->$key;
         }
 
         if($type=='en')
         {
-            $bn_file=file_get_contents('json_files/en.json');
+            $bn_file=file_get_contents('vendor/nahid940/language/json_files/en.json');
             $json_decoded_file=json_decode($bn_file);
             return $json_decoded_file->bn->$key;
         }

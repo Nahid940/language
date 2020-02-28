@@ -32,7 +32,6 @@ class Language
             $json_decoded_file=json_decode($bn_file);
             return $json_decoded_file->bn->$key;
         }
-
     }
 
 

@@ -20,8 +20,8 @@ instantiate The object of Language Class
 ```php
     use Language\Language;
     $lng=new Language();
-    echo $bn_lng->$lng->getLanguage('bn',2);
-    echo $en_lng->$lng->getLanguage('en',2);
+    echo $lng->getLanguage('bn',2);
+    echo $lng->getLanguage('en',2);
 ```
 1. You will get the output 'বয়স'
 2. You will get the output 'Age'
